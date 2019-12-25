@@ -5,6 +5,10 @@
 //  Created by David Haylock on 29/05/2014.
 //
 //
+#if defined(_WIN64) || defined(_WIN32)
+#define _USE_MATH_DEFINES
+#include <math.h>
+#endif // for WIN
 
 #include "ofxNeoPixelRing.h"
 
